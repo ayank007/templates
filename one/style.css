@@ -24,12 +24,12 @@ body > main{
     transform: translateX(-50%);
 }
 :root{
-    --b1:#2575b6;
-    --b2:#025491;
-    --b3:#23326B;
-    --g:#008B09;
-    --gray:#424256;
-    --bl1: rgba(0,0,0,0.4);
+    --theme: #23d433;
+    --theme2: #23326B;
+    --dark: #030303;
+    --light: #f1f1f1;
+    --tn: 0.3s;
+    --op: 0.4;
 }
 main > *{
     padding-left: 60px;
