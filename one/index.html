@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body class="w-full" id="Root">
+    <main class="flex items-center justify-center flex-col w-full mainContent">
+        <nav class="sticky top-0 left-0 z-50 flex items-center justify-between h-16 w-full">
+            <div class="logo">
+                <a href="#Root">
+                    <img src="./media/logo.png" alt="logo" class="h-5" />
+                </a>
+            </div>
+            <div class="navs flex gap-x-8 items-center font-semibold">
+                <a href="#Home">
+                    <div>
+                        Home
+                    </div>
+                </a>
+                <a href="#Service">
+                    <div>What We Deliver</div>
+                </a>
+                <a href="#About">
+                    <div>About</div>
+                </a>
+                <a href="/contact" target="_blank">
+                    <div>Contact</div>
+                </a>
+            </div>
+        </nav>
+        <Header></Header>
+        <section id="Service"></section>
+        <section id="About"></section>
+        <section id="Portfolio"></section>
+        <section id="Contact"></section>
+        <footer></footer>
+    </main>
+</body>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+</html>
