@@ -1,0 +1,88 @@
+:root{
+  --theme: #2575b6;
+  --light: #fbfbfb;
+  --dark: #1e1e1e;
+  --shadow: rgba(0,0,0,0.6);
+  --px: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color-scheme: light dark;
+  --roboto: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--roboto);
+  background-color: var(--light);
+  color: var(--dark);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+*{
+  box-sizing: border-box;
+  position: relative;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.bg-theme{
+  background-color: var(--theme);
+}
+.text-theme{
+  color: var(--theme);
+}
+.border-theme{
+  border-color: var(--theme);
+}
+.mainContainer{
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.px-base{
+  padding-left: var(--px);
+  padding-right: var(--px);
+}
+.right-base{
+  right: var(--px);
+}
+.left-base{
+  left: var(--px);
+}
+.flex1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar{
+  z-index: 100;
+}
+.btn{
+  padding: 7px 20px;
+  background-color: var(--theme);
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+  width: max-content;
+}
+.btn.disable{
+  pointer-events: none;
+  filter: brightness(0.3);
+}
+.cursor-none{
+  pointer-events: none;
+  opacity: 0.7;
+}
+#root, #Root{
+  min-height: 100vh;
+}
