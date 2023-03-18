@@ -39,7 +39,7 @@ body{
 .border-theme{
   border-color: var(--theme);
 }
-.mainContainer{
+.MainContainer{
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
